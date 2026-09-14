@@ -5,12 +5,12 @@
   --blue-tint: #EAF1FA;
   --black: #14181F;
   --gray: #64707D;
-  --gray-light: #98A2AD;
   --paper: #FFFFFF;
   --surface: #F7F8FA;
   --ink: #1B1F26;
   --line: #E5E8EC;
   --gold: #C9A24B;
+  --gold-text: #826930;
   --radius: 8px;
 }
 
@@ -112,7 +112,7 @@ img { max-width: 100%; display: block; border-radius: var(--radius); }
 /* ---- Trust cards (why us) ---- */
 .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 22px; }
 .info-card { padding: 4px 0; }
-.info-card .num { font-family: 'Fraunces', serif; color: var(--gold); font-size: 1rem; margin-bottom: 10px; display: block; }
+.info-card .num { font-family: 'Fraunces', serif; color: var(--gold-text); font-size: 1rem; margin-bottom: 10px; display: block; }
 .info-card h3 { margin: 0 0 8px; font-size: 1.05rem; }
 .info-card p { font-size: 0.9rem; color: var(--gray); margin: 0; }
 
@@ -186,7 +186,7 @@ img { max-width: 100%; display: block; border-radius: var(--radius); }
 }
 .pro-tip .label {
   font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
-  color: var(--gold); display: block; margin-bottom: 6px;
+  color: var(--gold-text); display: block; margin-bottom: 6px;
 }
 .pro-tip p { margin: 0; font-size: 0.95rem; color: var(--ink); }
 
