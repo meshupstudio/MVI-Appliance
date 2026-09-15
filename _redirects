@@ -1,0 +1,16 @@
+# Legacy Duda/AMP URLs -> current equivalent pages (permanent redirects)
+# High-confidence mappings only, approved 2026-09-15.
+# www->apex and http->https are handled by Netlify's Primary domain /
+# Force HTTPS settings, not here — do not duplicate those rules.
+
+/online-scheduling                       /contact/                        301
+/copy-of-service-locations               /service-locations/              301
+/ampify/contact                          /contact/                        301
+/ampify/maintenance                      /maintenance/                    301
+/ampify/service-locations                /service-locations/              301
+/ampify/appliance-repair-madera          /service-locations/madera/       301
+/madera                                  /service-locations/madera/       301
+/ampify/appliance-repair-fresno          /service-locations/fresno/       301
+/ampify/about                            /about/                          301
+/ampify/appliance-repair-clovis          /service-locations/clovis/       301
+/appliance-repair-clovis                 /service-locations/clovis/       301
