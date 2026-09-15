@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mviappliance.com/sitemap.xml
+Sitemap: https://mviappliance.com/sitemap.xml
