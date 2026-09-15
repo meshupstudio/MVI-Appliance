@@ -275,11 +275,18 @@ form.site-form button { margin-top: 22px; border: none; cursor: pointer; }
   .trust-grid { grid-template-columns: repeat(2, 1fr); }
   .quote-bar { flex-direction: column; align-items: flex-start; }
 
+  /* Mobile header: logo + CTA + hamburger must fit one row without wrapping */
+  .header-row { gap: 8px; }
+  .logo img { height: 28px; }
+  .header-cta { padding: 8px 14px; font-size: 0.82rem; }
+
   /* Mobile spacing: desktop keeps its own padding above this breakpoint */
   .hero-photo { min-height: 480px; }
-  .hero-inner { padding: 56px 0; }
-  .hero-photo .lede { margin: 16px 0 24px; }
-  .hero-actions { margin-bottom: 28px; }
+  .hero-inner { padding: 48px 0; }
+  .hero-photo h1 { font-size: 2.25rem; line-height: 1.18; }
+  .hero-photo .lede { font-size: 0.95rem; line-height: 1.5; margin: 14px 0 22px; }
+  .hero-actions { gap: 10px; margin-bottom: 26px; }
+  .hero-actions .btn { padding: 11px 18px; font-size: 0.85rem; }
   .hero-stats { gap: 22px; }
   .section { padding: 56px 0; }
   .page-hero { padding: 48px 0; }
