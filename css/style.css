@@ -282,7 +282,7 @@ form.site-form button { margin-top: 22px; border: none; cursor: pointer; }
 
   /* Mobile spacing: desktop keeps its own padding above this breakpoint */
   .hero-photo { min-height: 480px; }
-  .hero-inner { padding: 48px 0; }
+  .hero-inner { padding: 48px 20px; }
   .hero-photo h1 { font-size: 2.25rem; line-height: 1.18; }
   .hero-photo .lede { font-size: 0.95rem; line-height: 1.5; margin: 14px 0 22px; }
   .hero-actions { gap: 10px; margin-bottom: 26px; }
