@@ -294,7 +294,7 @@ form.site-form button { margin-top: 22px; border: none; cursor: pointer; }
 .footer-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 32px; }
 .footer-col h3 { color: var(--black); font-size: 0.78rem; letter-spacing: 0.08em; margin-bottom: 14px; text-transform: uppercase; }
 .footer-col a, .footer-col p { display: block; font-size: 0.9rem; margin-bottom: 9px; color: var(--gray); }
-.footer-logo img { height: 32px; margin-bottom: 12px; }
+.footer-logo img { height: 32px; width: auto; margin-bottom: 12px; }
 .footer-license { font-size: 0.78rem; color: var(--gray); margin-top: 12px; }
 .footer-bottom {
   display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
