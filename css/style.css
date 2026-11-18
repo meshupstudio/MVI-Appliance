@@ -83,7 +83,7 @@ img { max-width: 100%; display: block; border-radius: var(--radius); }
   background: #fff; border-radius: var(--radius); box-shadow: 0 24px 60px rgba(20,24,31,0.16);
   padding: 30px 36px; display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap;
 }
-.quote-bar h3 { margin: 0 0 4px; font-size: 1.15rem; }
+.quote-bar h2 { margin: 0 0 4px; font-size: 1.15rem; }
 .quote-bar p { margin: 0; color: var(--gray); font-size: 0.92rem; }
 
 /* ---- Trust strip ---- */
